@@ -1,12 +1,3 @@
-*** Please tell me who you are.
-
-Run
-
-  git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
-
-to set your account's default identity.
-Omit --global to set the identity only in this repository.
 # impo...have same file name
 # github update file
 
@@ -40,12 +31,13 @@ git push -u origin main
 Import your project to GitHub
 Import all the files, including the revision history, from another version control system.
 
-npm i
-npm start
-npm test
-npm run build
+# Deploy Vercel with vercel CLI like in terminal, 
+# assuming u already installed vercel cli by running npm i -g vercel
 
-# Deploy on Vercel with vercel CLI or check version
+vercel
+vercel env add ....value
+
+# or check version vercel CLI
 vercel --version
 https://vercel.com/docs/frameworks/vite
 
@@ -84,3 +76,18 @@ npm i -g vercel@latest
 - switch
 - teams
 - whoami
+
+*** Please tell me who you are.
+
+npm i
+npm start
+npm test
+npm run build
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
